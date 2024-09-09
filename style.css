@@ -149,7 +149,6 @@ a:hover {
 
 section {
     padding-top: 4vh;
-    height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -359,6 +358,8 @@ article .icon {
 
 #projects {
     position: relative;
+    min-height: 100vh;
+    margin-bottom: 5 rem;
 }
 
 .color-container {
@@ -388,7 +389,8 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    min-height: 70vh;
+    clear: both;
 }
 
 .contact-info-upper-container {
