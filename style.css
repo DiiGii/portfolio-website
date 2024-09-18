@@ -390,6 +390,12 @@ article .icon {
     border-color: rgb(163, 163, 163);
 }
 
+.purrlicious-img {
+    border-radius: 2rem;
+    width: 20%;
+    height: 20;
+}
+
 /* CONTACT */
 
 #contact {
